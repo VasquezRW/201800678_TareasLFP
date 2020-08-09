@@ -1,0 +1,16 @@
+El lenguaje imperativo es secuencial y solo ve estructuras de control condicionales o bucles y los lenguajes declarativos son basados en matematicas y logica.
+
+Ejemplo de lenguajes imperativo:
+ procedimiento factorial(entero n){
+     entero resultado = 1;
+     mientras (n > 0) {
+        resultado = resultado * n;
+        n = n - 1;
+     }
+     devuelve resultado;
+  }
+
+Ejemplo de lenguajes imperativo:
+
+ factorial(0) = 1
+  factorial(n) = n*factorial(n-1)
