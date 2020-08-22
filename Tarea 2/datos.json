@@ -1,0 +1,26 @@
+[
+{
+  "DPI":3038170030110,
+  "Carne": 201800678,
+  "Nombre": "Wilmer Estuardo",
+  "Apellido": "Vasquez Raxon"
+},
+{
+  "DPI":3128170030111,
+  "Carne": 201800678,
+  "Nombre": "Jose Alejandro",
+  "Apellido": "Garcia Ramirez"
+},
+{
+  "DPI":3038113240112,
+  "Carne": 201800678,
+  "Nombre": "Jhonatan Noe",
+  "Apellido": "Perez Perez"
+},
+{
+  "DPI":3038127430113,
+  "Carne": 201800678,
+  "Nombre": "Juan Jose",
+  "Apellido": "Paredes Giron"
+}
+]
