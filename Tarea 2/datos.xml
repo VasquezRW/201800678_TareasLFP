@@ -1,31 +1,31 @@
-<<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Registro>
-  <Estudiante>
-    <DPI>132456798</DPI>
-    <Carne>201800658</Carnet>
-    <Nombre>Jose Francisco</Nombre>
-    <Apellido>Schaart Godinez</Apellido>
-  </Estudiante>
+    <Estudiante>
+        <DPI>132456798</DPI>
+        <Carne>201800658</Carne>
+        <Nombre>Jose Francisco</Nombre>
+        <Apellido>Schaart Godinez</Apellido>
+    </Estudiante>
 
-  <Estudiante>
-    <DPI>741158829</DPI>
-    <Carne>201800454</Carnet>
-    <Nombre>Manuel Orlando</Nombre>
-    <Apellido>Hernandez Perez</Apellido>
-  </Estudiante>
+    <Estudiante>
+        <DPI>741158829</DPI>
+        <Carne>201800454</Carne>
+        <Nombre>Manuel Orlando</Nombre>
+        <Apellido>Hernandez Perez</Apellido>
+    </Estudiante>
 
-  <Estudiante>
-    <DPI>132456798</DPI>
-    <Carne>201800858</Carnet>
-    <Nombre>Pedro Fabio</Nombre>
-    <Apellido>Santos Casillas</Apellido>
-  </Estudiante>
+    <Estudiante>
+        <DPI>132456798</DPI>
+        <Carne>201800858</Carne>
+        <Nombre>Pedro Fabio</Nombre>
+        <Apellido>Santos Casillas</Apellido>
+    </Estudiante>
 
-  <Estudiante>
-    <DPI>132456798</DPI>
-    <Carne>201801118</Carnet>
-    <Nombre>Pablo Gerardo</Nombre>
-    <Apellido>Garcia Galdamez</Apellido>
-  </Estudiante>
+    <Estudiante>
+        <DPI>132456798</DPI>
+        <Carne>201801118</Carne>
+        <Nombre>Pablo Gerardo</Nombre>
+        <Apellido>Garcia Galdamez</Apellido>
+    </Estudiante>
 </Registro>

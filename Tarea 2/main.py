@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import interpreteJSON
 import interpreteCSV
+import interpreteXML
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -16,6 +17,8 @@ if __name__ == '__main__':
     interpreteJSON.CargarDatos('datos.json')
     print("\nDatos desde CSV\n")
     interpreteCSV.LeerDatos('datos.csv')
+    print("\nDatos desde XML\n")
+    interpreteXML.Cargar('datos.xml')
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
