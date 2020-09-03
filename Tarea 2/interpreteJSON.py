@@ -9,4 +9,3 @@ def CargarDatos(ruta):
             print(atributo.get('Nombre'))
             print(atributo.get('Apellido'))
             print('')
-
