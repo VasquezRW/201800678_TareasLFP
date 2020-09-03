@@ -35,7 +35,7 @@ def identificarComando(comando):
     elif x[0].lower() == "cuenta":
         print(len(leerJSON.datosPersonas))
     elif x[0].lower() == "reportar":
-        reportar(x[1])
+        reportar(int(x[1]))
 
 
 # Metodo que separa y carga cada archivo
@@ -150,7 +150,7 @@ def maximo(comando):
     instruccion = re.split("\s", comando)
     if instruccion[0].lower() == "maximo" and instruccion[1].lower() == "edad":
         lista = sorted(leerJSON.datosPersonas, key=lambda persona: float(persona.edad))
-        print(lista[len(lista)-1])
+        print(lista[len(lista) - 1])
 
     elif instruccion[0].lower() == "maximo" and instruccion[1].lower() == "promedio":
         lista = sorted(leerJSON.datosPersonas, key=lambda persona: float(persona.promedio))
@@ -199,14 +199,19 @@ def reportar(rango):
               "    </tr>\n"
               )
     f.write(inicio)
-    for i in range(rango):
-        persona = leerJSON.datosPersonas[i]
-        datos = (f"""<tr>
-    <td> {persona.nombre} </td>\n
-    <td> {persona.edad} </td>\n
-    <td> {persona.activo} </td>\n
-    <td> {persona.promedio} </td>\n</tr>""")
-        f.write(datos)
+    i = 1
+    for persona in leerJSON.datosPersonas:
+        if i < rango:
+            datos = (f"""<tr>
+                <td> {persona.nombre} </td>\n
+                <td> {persona.edad} </td>\n
+                <td> {persona.activo} </td>\n
+                <td> {persona.promedio} </td>\n</tr>""")
+            f.write(datos)
+            i += i
+        elif i == rango:
+            break
+
     fin = ("""</table>\n</body>\n
 </html>""")
     f.write(fin)

@@ -1,14 +1,14 @@
 [
     {
-        "nombre": "Pijota",
-        "edad": 45,
+        "nombre": "Escanor",
+        "edad": 50,
         "activo": true,
-        "promedio": 56.456
+        "promedio": 100
     },
     {
-        "nombre": "Cutusa",
-        "edad": 35,
+        "nombre": "Joel",
+        "edad": 65,
         "activo": false,
-        "promedio": 45.896
+        "promedio": 30
     }
 ]
