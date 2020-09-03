@@ -150,13 +150,11 @@ def maximo(comando):
     instruccion = re.split("\s", comando)
     if instruccion[0].lower() == "maximo" and instruccion[1].lower() == "edad":
         lista = sorted(leerJSON.datosPersonas, key=lambda persona: float(persona.edad))
-        lista.sort(reverse=True)
-        print(lista[0])
+        print(lista[len(lista)-1])
 
     elif instruccion[0].lower() == "maximo" and instruccion[1].lower() == "promedio":
         lista = sorted(leerJSON.datosPersonas, key=lambda persona: float(persona.promedio))
-        lista.sort(reverse=True)
-        print(lista[0])
+        print(lista[len(lista) - 1])
 
 
 # Metodo que devuelve el minimo de edad o promedio
@@ -210,7 +208,7 @@ def reportar(rango):
     <td> {persona.promedio} </td>\n</tr>""")
         f.write(datos)
     fin = ("""</table>\n</body>\n
-            </html>""")
+</html>""")
     f.write(fin)
     f.close()
     webbrowser.open_new_tab('reporte.html')
