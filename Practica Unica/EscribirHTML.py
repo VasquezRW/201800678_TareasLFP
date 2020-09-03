@@ -14,7 +14,7 @@ def escribirHTML(lista, rango):
               "    </tr>\n"
               )
     f.write(inicio)
-    for x in lista in range(rango):
+    for x in range(rango):
         datos = (f"""<tr>
 <td> {x.n} </td>\n
 <td> {x.e} </td>\n
